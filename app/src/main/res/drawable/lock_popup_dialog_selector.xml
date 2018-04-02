@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false"
+        android:drawable="@color/qhbdlg_red">
+        <solid android:color="@color/qhbdlg_red" />
+        <stroke
+            android:width="0.8dp"
+            android:color="@color/qhbdlg_red" />
+        <gradient
+            android:centerColor="@color/qhbdlg_red"
+            android:endColor="@color/qhbdlg_red"
+            android:startColor="@color/qhbdlg_red"/>
+        <!-- 圆角 -->
+        <corners android:radius="6dp"
+            android:bottomLeftRadius="6dp"
+            android:topLeftRadius="6dp"
+            android:topRightRadius="6dp" />
+<!--        <padding
+            android:left="5dp"
+            android:right="5dp"
+            android:top="5dp"
+            android:bottom="5dp"/>-->
+    </item>
+    <item android:state_pressed="true"
+        android:drawable="@color/red_dark">
+        <solid android:color="@color/red_dark" />
+        <stroke
+            android:width="0.8dp"
+            android:color="@color/red_dark" />
+        <gradient
+            android:centerColor="@color/red_dark"
+            android:endColor="@color/red_dark"
+            android:startColor="@color/red_dark"/>
+        <!-- 圆角 -->
+        <corners android:radius="6dp"
+            android:bottomLeftRadius="6dp"
+            android:topLeftRadius="6dp"
+            android:topRightRadius="6dp" />
+<!--        <padding
+            android:left="5dp"
+            android:right="5dp"
+            android:top="5dp"
+            android:bottom="5dp"/>-->
+    </item>
+</selector>

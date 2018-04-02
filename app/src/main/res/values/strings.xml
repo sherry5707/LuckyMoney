@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">宝橙红包助手</string>
+    <string name="accessibility_service_description">宝橙红包助手需要无障碍服务功能来完成优抢红包功能。请打开右上角的开关。</string>
+    <string name="agreement_message">本功能完全模拟人工操作，抢红包速度取决于你手机的性能与网络，不涉及任何第三方软件接口。本软件无病毒、不收集用户隐私信息，禁止使用本功能参与赌博活动。一切因使用“宝橙红包助手”造成的任何后果，概不负责，亦不承担任何法律责任!</string>
+    <string name="use_tip1">1、打开抢红包总开关</string>
+    <string name="use_tip2">2、打开总开关下的所有权限和免责声明</string>
+</resources>
